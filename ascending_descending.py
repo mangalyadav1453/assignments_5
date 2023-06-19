@@ -1,0 +1,6 @@
+val =eval(input("enter a list:"))
+print(" original list:",val)
+val.sort()
+print(" sorted in ascending order:",val)
+val.sort(reverse=True)
+print("sorted in descending order:",val)
